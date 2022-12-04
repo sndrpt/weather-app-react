@@ -1,14 +1,31 @@
 import "./App.css";
+import Search from "./Search";
 import Weather from "./Weather";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-        <h4>Have a look at the weather in your city.</h4>
-        <Weather city="Paris" />
-      </header>
+      <div className="container">
+        <div className="card card-outside">
+          <div className="card-body outside-body">
+            <div className="card card-inside">
+              <div className="card-body inside-body">
+                <Search />
+                <Weather
+                  city="London"
+                  day="Saturday"
+                  humidity="70"
+                  wind="5"
+                  temperature="15"
+                  description="Rainy"
+                />
+                <Footer />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

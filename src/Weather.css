@@ -1,0 +1,57 @@
+.information {
+  margin: 0 15px 0 15px;
+  padding: 40px;
+  max-width: 600px;
+}
+
+.detail {
+  text-align: right;
+}
+
+.city {
+  font-size: 28px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.temperature-info {
+  font-size: 50px;
+  line-height: 1;
+  margin-top: 15px;
+}
+
+.detail-info-today {
+  font-size: 28px;
+}
+
+#icon {
+  height: 60px;
+  float: left;
+}
+
+.units {
+  font-size: 16px;
+  position: relative;
+  top: -24px;
+}
+
+.temp-celsius,
+.temp-fahrenheit {
+  color: rgba(135, 170, 235, 0.7);
+  text-decoration: none;
+}
+
+.temp-celsius:hover,
+.temp-fahrenheit:hover {
+  color: rgba(135, 170, 235, 0.9);
+  text-decoration: underline;
+}
+
+.information .active {
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.information .active:hover {
+  text-decoration: none;
+}

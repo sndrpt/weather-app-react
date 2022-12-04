@@ -1,0 +1,13 @@
+.Footer {
+  text-align: center;
+}
+
+.Footer .link-github {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.Footer .link-github:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
