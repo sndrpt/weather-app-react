@@ -24,17 +24,17 @@ export default function Weather(props) {
               <img
                 src="http://openweathermap.org/img/wn/10d@2x.png"
                 id="icon"
-                alt="icon"
+                alt="Weather icon"
               />
               <span id="temp">{props.temperature}</span>
               <span className="units">
-                <a className="active temp-celsius" id="celsius" href="#">
+                <span className="active temp-celsius" id="celsius" href="#">
                   °C
-                </a>
+                </span>
                 |
-                <a className="temp-fahrenheit" id="fahrenheit" href="#">
+                <span className="temp-fahrenheit" id="fahrenheit">
                   °F
-                </a>
+                </span>
               </span>
             </li>
           </ul>
