@@ -26,23 +26,8 @@
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-.input-group-text {
-  background-color: rgba(255, 255, 255, 0.15);
-  border: none;
-  border-radius: 0 5px 5px 0;
-  padding: 11px;
-}
-
-.search-icon {
-  color: rgba(255, 255, 255, 0.4);
-}
-
 .col-6 {
   padding-right: 1px;
-}
-
-.button-column {
-  margin-top: 16.25px;
 }
 
 .btn {

@@ -14,11 +14,6 @@ export default function Search() {
               autocomplete="off"
               placeholder="Search..."
             />
-            <div className="input-group-append">
-              <span className="input-group-text" id="basic-addon2">
-                <i className="fa-solid fa-magnifying-glass search-icon"></i>
-              </span>
-            </div>
           </div>
         </div>
         <div className="col-6 button-column">
